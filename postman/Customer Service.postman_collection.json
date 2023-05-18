@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "f1a12a08-a1c9-4019-b0c2-fd6fe4496e22",
+		"name": "Customer Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All Customers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7122/api/v1/customer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7122",
+					"path": [
+						"api",
+						"v1",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7122/api/v1/customer/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7122",
+					"path": [
+						"api",
+						"v1",
+						"customer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"FirstName\":\"Ali\",\r\n    \"LastName\" : \"Firat\",\r\n    \"Age\":32,\r\n    \"Address\":\"Istanbul\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7122/api/v1/customer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7122",
+					"path": [
+						"api",
+						"v1",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"firstName\": \"Polat\",\r\n    \"lastName\": \"Yılmaz\",\r\n    \"age\": 35,\r\n    \"address\": \"Yozgat\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7122/api/v1/customer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7122",
+					"path": [
+						"api",
+						"v1",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"firstName\": \"Polat\",\r\n    \"lastName\": \"Yılmaz\",\r\n    \"age\": 35,\r\n    \"address\": \"Yozgat\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7122/api/v1/customer/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7122",
+					"path": [
+						"api",
+						"v1",
+						"customer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7122/api/v1/customer/search?FirstName=Polat&LastName=Firat&Age=34&Address=Istanbul",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7122",
+					"path": [
+						"api",
+						"v1",
+						"customer",
+						"search"
+					],
+					"query": [
+						{
+							"key": "FirstName",
+							"value": "Polat",
+							"description": "Filter works with equal"
+						},
+						{
+							"key": "LastName",
+							"value": "Firat",
+							"description": "Filter works with equal"
+						},
+						{
+							"key": "Age",
+							"value": "34",
+							"description": "Filter works with equal"
+						},
+						{
+							"key": "Address",
+							"value": "Istanbul",
+							"description": "Filter works with contains"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

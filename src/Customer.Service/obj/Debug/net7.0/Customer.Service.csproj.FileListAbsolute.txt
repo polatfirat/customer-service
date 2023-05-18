@@ -1,0 +1,17 @@
+C:\Git\customer-service\src\Customer.Service\bin\Debug\net7.0\Customer.Service.deps.json
+C:\Git\customer-service\src\Customer.Service\bin\Debug\net7.0\Customer.Service.dll
+C:\Git\customer-service\src\Customer.Service\bin\Debug\net7.0\Customer.Service.pdb
+C:\Git\customer-service\src\Customer.Service\bin\Debug\net7.0\Customer.Domain.dll
+C:\Git\customer-service\src\Customer.Service\bin\Debug\net7.0\Customer.Repository.dll
+C:\Git\customer-service\src\Customer.Service\bin\Debug\net7.0\Customer.Domain.pdb
+C:\Git\customer-service\src\Customer.Service\bin\Debug\net7.0\Customer.Repository.pdb
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\Customer.Service.csproj.AssemblyReference.cache
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\Customer.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\Customer.Service.AssemblyInfoInputs.cache
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\Customer.Service.AssemblyInfo.cs
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\Customer.Service.csproj.CoreCompileInputs.cache
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\Customer.Service.csproj.CopyComplete
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\Customer.Service.dll
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\refint\Customer.Service.dll
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\Customer.Service.pdb
+C:\Git\customer-service\src\Customer.Service\obj\Debug\net7.0\ref\Customer.Service.dll
